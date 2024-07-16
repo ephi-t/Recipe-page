@@ -1,0 +1,169 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 20px;
+    background-color: white;
+    padding: 50px 50px;
+    border-radius: 20px 20px 20px 20px;
+    height: fit-content;
+}
+h1{
+    font-family: "Young Serif", serif;
+}
+span{
+    font-weight: bold;
+}
+.sect-1 p{
+    font-family: "Outfit", sans-serif;
+}
+
+.sect-2{
+    background-color: hsla(332, 57%, 45%, 0.223);
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+}
+
+.sect-2 h3{
+    color:hsl(332, 51%, 32%) ;
+}
+
+.sect-2 ul li{
+    padding: 5px;
+}
+
+.sect-3 ul li{
+    padding: 5px;
+}
+
+.sect-4 ol li {
+    padding: 5px;
+}
+
+.container img{
+    width: 100%;   
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+ 
+    font-family: "Outfit", sans-serif;
+  
+}
+
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #7d7d7d;
+}
+
+.value {
+    text-align: center;
+    color: #9b6d44;
+    font-weight: bold;
+}
+
+@media (max-width:900px) {
+    body{
+ 
+        font-size: 16px;
+       
+        font-family: "Outfit", sans-serif;
+      
+    }
+    
+.container{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    gap: 0px;
+    background-color: white;
+    padding: 0px 0px;
+    height: fit-content;
+}
+
+.container img {
+    border-radius: 0 0 0 0;
+}
+
+.sect-1 ,.sect-2 , .sect-3,.sect-4 , .sect-5{
+
+  padding: 50px 50px;
+}
+
+
+h1{
+    font-family: "Young Serif", serif;
+}
+span{
+    font-weight: bold;
+}
+.sect-1 p{
+    font-family: "Outfit", sans-serif;
+}
+
+.sect-2{
+    background-color: hsla(332, 57%, 45%, 0.127);
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+    margin: 50px 50px;
+}
+
+.sect-2 h3{
+    color:hsl(332, 51%, 32%) ;
+}
+
+.sect-2 ul li{
+    padding: 5px;
+}
+
+.sect-3 ul li{
+    padding: 5px;
+}
+
+.sect-4 ol li {
+    padding: 5px;
+}
+
+
+
+
+
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #7d7d7d;
+}
+
+.value {
+    text-align: center;
+    color: #9b6d44;
+    font-weight: bold;
+}
+}
